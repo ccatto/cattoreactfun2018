@@ -4,9 +4,50 @@
 .colorWhite{
 
 }
+.ulFlex{
+    display: flex;
+    justify-content:space-around;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+    text-align: center;
+}
 .listStyleTypeNone li{
     list-style-type: none;
+    display:inline;
+
 }
 .listStyleTypeNone li a{
     color:white;
+}
+.listStyleTypeNone li input{
+    width: 100%;
+}
+.width15per{
+    width:15%;
+}
+.width20per{
+    width:20%;
+}
+.width55per{
+    width:55%;
+}
+.width60per{
+    width:60%;
+}
+.width65per{
+    width:65%;
+}
+.width70per{
+    width:70%;
+}
+.width10per{
+    width:10%;
+}
+.width100{
+    width:100;
 }
