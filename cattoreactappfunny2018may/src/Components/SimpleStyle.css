@@ -1,3 +1,12 @@
 .some{
     background-color: brown;
 }
+.colorWhite{
+
+}
+.listStyleTypeNone li{
+    list-style-type: none;
+}
+.listStyleTypeNone li a{
+    color:white;
+}
