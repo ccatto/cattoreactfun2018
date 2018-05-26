@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
+import './SimpleStyle.css';
 
 class NavTop extends Component {
     render() {
       return (
-        <div>
+        <div className="some">
           Nav Top
         </div>
       );
