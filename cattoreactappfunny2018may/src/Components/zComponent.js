@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
 
-class Header extends Component {
+class ComponentName extends Component {
     render() {
       return (
         <div>
-          This is my Header component.
+          This is my ComponentName component.
     </div>
       );
     }
   }
   
-  export default Header;
+  export default ComponentName;
