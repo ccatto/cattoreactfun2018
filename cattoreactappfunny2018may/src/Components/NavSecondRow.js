@@ -7,10 +7,8 @@ class NavSecondRow extends Component {
     return (
       <div className="nav2ndrow">
         <ul className="listStyleTypeNone ulFlex">
-          <li className="width15per displayFlexColumn">
-            <span>
-              <img className="square60 borderRadius10px" src={we} alt={we} />
-            </span>
+          <li className="width15per displayFlexColumn alignItemsCenter">
+            <img className="square60 borderRadius15px" src={we} alt={we} />
           </li>
           <li className="width65per displayFlexColumn paddingTopBottom10px">
             <input className="width100 " />

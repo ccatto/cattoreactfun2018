@@ -1,6 +1,9 @@
 .some{
     background-color: brown;
 }
+.backgroundColorBlack{
+    background-color: black;
+}
 .colorWhite{
     color:white;
 }
@@ -37,6 +40,12 @@
     align-content: center;
     justify-content: center;
 }
+.justifyContentCenter{
+    justify-content: center;
+}
+.alignItemsCenter{
+    align-items: center;
+}
 .flex1{
     flex:1;
 }
@@ -64,6 +73,9 @@
 .width100{
     width:100;
 }
+.height100{
+    height:100%;
+}
 .square30{
     width:30px;
     height:30px;
@@ -74,7 +86,6 @@
 }
 .nav2ndrow{
     background-color: #298fc2;
-    min-height: 75px;
 }
 .fontsize8px{
     font-size: 8px;
@@ -90,4 +101,10 @@
 }
 .borderRadius10px{
     border-radius: 10px;
+}
+.borderRadius15px{
+    border-radius: 15px;
+}
+.borderRadius20px{
+    border-radius: 20px;
 }

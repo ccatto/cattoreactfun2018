@@ -5,7 +5,7 @@ import './SimpleStyle.css';
 class NavTop extends Component {
     render() {
       return (
-        <div className="some">
+        <div className="backgroundColorBlack">
           Nav Top
         </div>
       );
