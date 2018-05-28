@@ -85,7 +85,7 @@
     width:10%;
 }
 .width100{
-    width:100;
+    width:100%;
 }
 .height100{
     height:100%;
@@ -112,8 +112,17 @@
 .nav2ndrow{
     background-color: #298fc2;
 }
+.nav3rdrow{
+    background-color: black;
+}
+.nav3rdrow ul li{
+    width:15%;
+}
 .fontsize8px{
     font-size: 8px;
+}
+.fontsize10px{
+    font-size: 10px;
 }
 .paddingTopBottom20px{
     padding: 20px 0px 20px 0px;

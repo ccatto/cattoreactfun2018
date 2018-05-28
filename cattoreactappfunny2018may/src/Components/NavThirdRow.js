@@ -4,17 +4,22 @@ import './SimpleStyle.css';
 class NavThirdRow extends Component {
   render() {
     return (
-      <div>
-        <ul className="listStyleTypeNone colorWhite">
-          <li>
-            <a href='/'>Home</a>
+      <div className="nav3rdrow displayFlexRow">
+        <ul className="listStyleTypeNone displayFlexRow width100">
+          <li className="width15per">
+            <a href='/'>Live</a>
           </li>
           <li>
-            <a href='/todolist'>todolist</a>
+            <a href='/todolist'>Learn</a>
+          </li>
+          <li>
+            <a href='/'>Work</a>
+          </li>
+          <li>
+            <a href='/todolist'>Play</a>
           </li>
         </ul>
-        NavThirdRow 3rd
-        </div>
+      </div>
     );
   }
 }
