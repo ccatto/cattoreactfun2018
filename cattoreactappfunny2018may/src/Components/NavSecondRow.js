@@ -8,21 +8,23 @@ class NavSecondRow extends Component {
       <div className="nav2ndrow">
         <ul className="listStyleTypeNone ulFlex">
           <li className="width15per displayFlexColumn alignItemsCenter">
-            <img className="square60 borderRadius15px" src={we} alt={we} />
+            <a href='/' className="width15per displayFlexColumn alignItemsCenter">
+              <img className="square60 borderRadius15px" src={we} alt={we} />
+            </a>
           </li>
           <li className="width65per displayFlexColumn paddingTopBottom10px">
             <input className="width100 " />
           </li>
           <li className="width10per displayFlexColumn">
-            <span>
+            <a href='/account'>
               <img className="square30" src="https://delivery.yellowcabpizza.com/images/user_icon.png" />
-            </span>
+            </a>
             <span className="fontsize8px">Account</span>
           </li>
           <li className="width10per displayFlexColumn">
-            <span>
+            <a href='/cart'>
               <img className="square30" src="https://www.iconsdb.com/icons/preview/white/cart-70-xxl.png" />
-            </span>
+            </a>
             <span className="fontsize8px">Cart</span>
           </li>
         </ul>
