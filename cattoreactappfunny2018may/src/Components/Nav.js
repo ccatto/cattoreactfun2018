@@ -8,16 +8,7 @@ class Nav extends Component {
   render() {
     return (
       <nav>
-       <ul className="listStyleTypeNone colorWhite">
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/todolist'>todolist</a>
-          </li>
-        </ul>
-        This is my Nav component.
-            <NavTop />
+        <NavTop />
         <NavSecondRow />
         <NavThirdRow />
       </nav>

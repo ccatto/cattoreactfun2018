@@ -34,6 +34,11 @@
 .listStyleTypeNone .displayFlexColumn{
     display:flex;
 }
+.displayFlexRow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .displayFlexColumn{
     display:flex;
     flex-direction: column;
@@ -46,8 +51,17 @@
 .alignItemsCenter{
     align-items: center;
 }
+.alignItemsLeft{
+    align-items: flex-start;
+}
 .flex1{
     flex:1;
+}
+.width5per{
+    width:5%;
+}
+.width10per{
+    width:10%;
 }
 .width15per{
     width:15%;
@@ -76,6 +90,14 @@
 .height100{
     height:100%;
 }
+.square10{
+    width:10px;
+    height:10px;
+}
+.square15{
+    width:15px;
+    height:15px;
+}
 .square30{
     width:30px;
     height:30px;
@@ -83,6 +105,9 @@
 .square60{
     width:60px;
     height:60px;
+}
+.navTop{
+    background-color: black;
 }
 .nav2ndrow{
     background-color: #298fc2;
@@ -107,4 +132,7 @@
 }
 .borderRadius20px{
     border-radius: 20px;
+}
+.paddingLeft5px{
+    padding-left: 5px;
 }
