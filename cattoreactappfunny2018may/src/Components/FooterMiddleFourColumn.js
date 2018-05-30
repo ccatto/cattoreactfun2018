@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class FooterMiddleFourColumn extends Component {
   render() {
     return (

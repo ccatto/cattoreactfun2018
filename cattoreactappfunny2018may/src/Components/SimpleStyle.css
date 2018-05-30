@@ -93,6 +93,10 @@
 .height100{
     height:100%;
 }
+.square5{
+    width:5px;
+    height:5px;
+}
 .square10{
     width:10px;
     height:10px;
