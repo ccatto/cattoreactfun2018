@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import product1 from '../Images/product1.jpg';
+import product2 from '../Images/product2.jpg';
+import product3 from '../Images/product3.jpg';
+import product4 from '../Images/product4.jpg';
 import redstar from '../Images/redstar.png';
 import Ratings from './Utils/Ratings.js';
 import './SimpleStyle.css';
@@ -14,7 +17,7 @@ class ProductsRow extends Component {
           </li>
           <li className="width20per ">
             <ul className="displayFlexColumn alignItemsLeft">
-              <li> <img className="square60 borderRadius15px" src={product1} />
+              <li> <img className="square100per borderRadius15px" src={product1} />
               </li>
               <li>
                 <Ratings />
@@ -29,7 +32,7 @@ class ProductsRow extends Component {
           </li>
           <li className="width20per">
             <ul className="displayFlexColumn alignItemsLeft">
-              <li><img className="square60 borderRadius15px" src={product1} />
+              <li><img className="square100per borderRadius15px" src={product2} />
               </li>
               <li>
                 <Ratings />
@@ -44,7 +47,7 @@ class ProductsRow extends Component {
           </li>
           <li className="width20per">
             <ul className="displayFlexColumn alignItemsLeft">
-              <li><img className="square60 borderRadius15px" src={product1} />
+              <li><img className="square100per borderRadius15px" src={product3} />
               </li>
               <li>
                 <Ratings />
@@ -59,7 +62,7 @@ class ProductsRow extends Component {
           </li>
           <li className="width20per">
             <ul className="displayFlexColumn alignItemsLeft">
-              <li><img className="square60 borderRadius15px" src={product1} />
+              <li><img className="square100per borderRadius15px" src={product4} />
               </li>
               <li>
                 <Ratings />
