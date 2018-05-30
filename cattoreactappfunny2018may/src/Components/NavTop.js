@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './SimpleStyle.css';
+import headset from '../Images/headset.png';
 
 class NavTop extends Component {
   render() {
@@ -13,13 +14,13 @@ class NavTop extends Component {
           </li>
           <li className="width10per fontsize8px displayFlexColumn alignItemsLeft">
             <span className="displayFlexRow">
-              <img className="square15" src="https://www.iconsdb.com/icons/preview/white/headset-xxl.png" />
+              <img className="square15" src={headset} />
               <span className="paddingLeft5px">Track Order </span>
             </span>
           </li>
           <li className="width10per fontsize8px">
             <span className="displayFlexRow">
-              <img className="square15" src="https://www.iconsdb.com/icons/preview/white/headset-xxl.png" />
+              <img className="square15" src={headset} />
               <span className="paddingLeft5px"> Support </span>
             </span>
           </li>

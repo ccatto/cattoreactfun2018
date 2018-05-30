@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './SimpleStyle.css';
 import we from '../Images/we.png';
+import cart from '../Images/cart.png';
+import account from '../Images/account.png';
 
 class NavSecondRow extends Component {
   render() {
@@ -17,18 +19,17 @@ class NavSecondRow extends Component {
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/account'>
-              <img className="square30" src="https://delivery.yellowcabpizza.com/images/user_icon.png" />
+              <img className="square30" src={account} />
             </a>
             <span className="fontsize8px">Account</span>
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/cart'>
-              <img className="square30" src="https://www.iconsdb.com/icons/preview/white/cart-70-xxl.png" />
+              <img className="square30" src={cart} />
             </a>
             <span className="fontsize8px">Cart</span>
           </li>
         </ul>
-
       </div>
     );
   }
