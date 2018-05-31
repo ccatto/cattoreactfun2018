@@ -1,0 +1,88 @@
+.newellBlue{
+    color:#298FC2;
+}
+.newellBlueBackground{
+   background-color: #298FC2;
+}
+.newellBlueDark{
+    color:#14506B;
+}
+.newellBlueDarkBackground{
+   background-color: #14506B;
+}
+.newellBlueLight{
+    color:##9ECEE4;
+}
+.newellBlueLightBackground{
+   background-color: #9ECEE4;
+}
+.newellGrey{
+    color: #696158;
+}
+.newellGreyBackground{
+   background-color: #696158;
+}
+.newellGreyDark{
+    color: #34302B;
+}
+.newellGreyDarkBackground{
+   background-color: #34302B;
+}
+.newellGreyLight{
+    color:#B4B0AB;
+}
+.newellGreyLightBackground{
+   background-color: #B4B0AB;
+}
+.newellTextGrey{
+    color: #5F564F;
+}
+.newellTextGreyLight{
+    color: #7D7368;
+}
+.newellTextGrayLighter{
+    color:#14506B;
+}
+.newellUIGrayBackground{
+   background-color: #7D7468;
+}
+.newellUIGrayDarkBackground{
+   background-color: #615751;
+}
+.newellUIGrayLightBackground{
+   background-color: #F2F2F2;
+}
+.newellUIRedBackground{
+   background-color: #C04C36;
+}
+.newellUIRedDarkBackground{
+    background-color: #8B3827;
+}
+.newellUIRedLightBackground{
+   background-color: #F9F6F6;
+}
+.newellUIYelloBackground{
+   background-color: #14506B;
+}
+.newellUIYellowDarkBackground{
+   background-color: #;
+}
+.newellUIYellowLightBackground{
+   background-color: #14506B;
+}
+.newellUIGreenBackground{
+   background-color: #1B806D;
+}
+.newellUIGreenDarkBackground{
+   background-color: #135D51;
+}
+.newellUIGreenLightBackground{
+   background-color: #E9FCF7;
+}
+ 
+.swatch{
+    background-color: #14506B;
+    width:200px;
+    height:200px;
+    border-radius: 20px;
+ }

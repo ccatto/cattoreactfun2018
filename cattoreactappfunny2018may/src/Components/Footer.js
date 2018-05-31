@@ -6,7 +6,7 @@ import FooterTop from './FooterTop.js';
 class Footer extends Component {
     render() {
       return (
-        <footer>This is my Footer component.
+        <footer>
           <FooterTop/>
           <FooterMiddleFourColumn/>
           <FooterBottomRow/>

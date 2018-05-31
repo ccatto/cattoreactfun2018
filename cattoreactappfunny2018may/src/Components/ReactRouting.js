@@ -4,15 +4,11 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './Home.js';
 import ToDoList from './ToDoList.js'
 import Account from './Account.js'
-import Cart from './Cart.js'
+import Cart from './Checkout/Cart.js'
 
 class ReactRouting extends Component {
   render() {
     return (
-      <div>
-        <h1>
-          ReactRouting
-          </h1>
         <Router>
           <switch>
           <Route exact path='/' component={Home} />
@@ -21,8 +17,6 @@ class ReactRouting extends Component {
           <Route path='/todolist' component={ToDoList} />
           </switch>
         </Router>
-
-      </div>
     );
   }
 }

@@ -1,0 +1,101 @@
+
+.cart{
+    background-color: #34302B;
+    color: #F2F2F2;
+}
+/* @media screen and (max-width: 480px) {
+    .cart ul li:nth-child(5){
+        background-color: #34302B;
+    }
+} */
+.orderSummary{
+    background-color: #F2F2F2;
+}
+
+.flexRow2Col60perLeft{
+    display:flex;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color:#F2F2F2
+}
+.flexRow2Col60perLeft li:nth-child(1){
+  width:59%;
+  /* background-color:orange; */
+    -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.flexRow2Col60perLeft li:nth-child(2){
+    width:2%;
+    /* background-color:orange; */
+      -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color:#B4B0AB;
+  }
+.flexRow2Col60perLeft li:nth-child(3){
+  width:39%;
+  /* background-color:black; */
+  /* color:white; */
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+  .flexRow2Col60perLeft li:nth-child(1){
+    width:100%;
+    /* background-color:purple; */
+        -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+    .flexRow2Col60perLeft  li:nth-child(2){
+    widtH:100%;
+    /* background-color:green; */
+        -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }
+}
+
+/* .flexRow2Col70perLeft */
+.flexRow2Col70perLeft{
+    display:flex;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    list-style-type:none;
+    margin: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.flexRow2Col70perLeft li:nth-child(odd){
+  width:70%;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align:left;
+}
+.flexRow2Col70perLeft li:nth-child(even){
+  width:30%;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align:right;
+}
+
+
+
+
+
+
+
+
