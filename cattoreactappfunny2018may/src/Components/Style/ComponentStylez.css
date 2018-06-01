@@ -7,7 +7,7 @@
 .blueBackground{
     background-color: #298FC2;
  }
-.backgroundColorBlue{
+ .backgroundColorBlue{
     background-color: #298FC2;
  }
 .backgroundColorGrayDark{
@@ -15,24 +15,6 @@
 }
 .backgroundColorGrayLight{
     background-color:#F2F2F2;
-}
-.backgroundColorGreen{
-    background-color:green;
-}
-.backgroundColorOrange{
-    background-color:orange;
-}
-.backgroundColorLimeGreen{
-    background-color:limegreen;
-}
-.backgroundColorRed{
-    background-color:red;
-}
-.backgroundColorPurple{
-    background-color:purple;
-}
-.backgroundColorPaleVioletRed{
-    background-color:palevioletred;
 }
 .colorGrayLight{
     color:#F2F2F2;
@@ -42,18 +24,6 @@
 }
 .colorWhite{
     color:white;
-}
-.colorBlue{
-    color: #298FC2;
-}
-.colorRed{
-    color:red;
-}
-.colorOrange{
-    color:orange;
-}
-.colorPurple{
-    color:purple;
 }
 .bold{
     font-family: 'Raleway Bold', sans-serif;
@@ -78,6 +48,9 @@
 .listStyleTypeNone li{
     list-style-type: none;
     display:inline;
+}
+.listStyleTypeNone li a{
+    color:white;
 }
 .listStyleTypeNone li input{
     width: 100%;
@@ -139,9 +112,6 @@
 .flex1{
     flex:1;
 }
-.floatLeft{
-    float:left;
-}
 .marginBottom10px{
     margin-bottom: 10px;
 }
@@ -154,17 +124,11 @@
 .height30px{
     height:30px;
 }
-.height60px{
-    height:60px;
-}
 .height80px{
     height:80px;
 }
 .height100{
     height:100%;
-}
-.width2per{
-    width:2%;
 }
 .width4per{
     width:4%;
@@ -180,9 +144,6 @@
 }
 .width20per{
     width:20%;
-}
-.width49per{
-    width:49%;
 }
 .width50per{
     width:50%;
@@ -249,13 +210,13 @@
     height:100%;
 }
 .navTop{
-    background-color: 34302B;
+    background-color: black;
 }
 .nav2ndrow{
     background-color: #298fc2;
 }
 .nav3rdrow{
-    background-color: #F2F2F2;
+    background-color: black;
 }
 .nav3rdrow ul li{
     width:15%;
@@ -265,12 +226,6 @@
 }
 .fontsize10px{
     font-size: 10px;
-}
-.fontsize12px{
-    font-size: 12px;
-}
-.fontsize14px{
-    font-size: 14px;
 }
 .paddingTopBottom20px{
     padding: 20px 0px 20px 0px;
@@ -301,44 +256,6 @@
 }
 
 
-.FooterBottomRowGutter{
-    height: 45px;
-    background: linear-gradient(#298FC2, #34302B); 
-    border-radius:25px;
-}
-.buttonBlue{
-    background-color: #298FC2;
-    color:#f2f2f2;
-    height: 45px;
-    min-width:100px;
-    padding:0px 10px 0px 10px;
-    font-size: 12px;
-}
-.buttonBlue:hover{
-    color: #F2F2F2;
-    background-color:#14506B;
-}
-.buttonBlue:focus{
-    color: #F2F2F2;
-    background-color:#14506B;
-}
-.buttonBlue:disabled{
-    color: #F2F2F2;
-    background-color:#9ECEE4;
-}
-.buttonBlue:active{
-    color: #F2F2F2;
-    background-color:#14506B;
-    outline: 2px solid #14506B;
-    outline-offset: 3px;
-}
-.buttonContainer{
-    width: 90%; /*can be in percentage also.*/
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-}
 
 
 /* FlexBox Generic Stackable Row */
@@ -639,71 +556,3 @@
     justify-content: center;
     flex-direction: column;
 }
-
-.flexRowNoWrap{
-    display:flex;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-}
-.flexRowNoWrap > li{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-.flexRowWrap{
-    display:flex;
-    -ms-box-orient: horizontal;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -moz-flex;
-    display: -webkit-flex;
-    flex-direction: row;
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-.flexRowWrap > li{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-}
-@media screen and (max-width: 480px) {
-    .flexRowWrap > li:nth-child(odd){
-          width:100%;
-          -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-      }
-      .flexRowWrap > li:nth-child(even){
-          width: 100%;
-          height: 10px;
-          -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-      }
-  }
-
-  .flexCenter{
-    /* padding: 0;
-    margin: 0; */
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }

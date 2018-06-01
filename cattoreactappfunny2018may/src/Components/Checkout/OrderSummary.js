@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CartPromoCode from './CartPromoCode.js';
 import '../SimpleStyle.css';
 import './Cart.css';
 
@@ -37,12 +38,38 @@ class OrderSummary extends Component {
           <li><b>$8.88</b></li>
         </ul>
         <hr className="width90per" />
-        <div>
-          # Apply Promo Cod
-      </div>
+        <CartPromoCode />
         <hr className="width90per" />
         <div>
-          <button></button>
+          <ul className="flexRowNoWrap">
+
+            <li className="width30px">
+              <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
+            </li>
+            <li> <span>Continue to Shipping</span>
+            </li>
+          </ul>
+          <br /><br />
+
+          <button className="width90per buttonBlue ">
+            <div  className="backgroundColorBlack width45px flexCenter ">
+              text</div>
+
+          </button>
+          <br />
+          <br />
+          <button className="buttonContainer width90per buttonBlue">
+            <ul className="flexRowNoWrap">
+
+              <li className="width30px">
+                <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
+              </li>
+              <li> <span>Continue to Shipping</span>
+              </li>
+            </ul>
+
+          </button>
+
         </div>
         <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width50per paddingBottom10px paddingTop10px" />
       </div>

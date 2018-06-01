@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SimpleStyle.css';
+import '../SimpleStyle.css';
 
 class NavThirdRow extends Component {
   render() {

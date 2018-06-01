@@ -4,8 +4,7 @@ import './SimpleStyle.css';
 class FooterTop extends Component {
   render() {
     return (
-      <div className="backgroundColorBlue colorGrayLight">
-        <ul className="flexRow3ColGutters">
+        <ul className="backgroundColorBlue colorGrayLight footerTop flexRow3ColGutters">
           <li></li>
           <li>
             <ul className="flexRow4NoWrap">
@@ -36,7 +35,6 @@ class FooterTop extends Component {
           </li>
           <li></li>
         </ul>
-      </div>
     );
   }
 }
