@@ -10,17 +10,17 @@ class FooterBottomRow extends Component {
         <li>
           <div className="minHeight20px blueBackground colorWhite displayFlexColumn marginTopBottom4px">
             <ul className="listStyleTypeNone ulFlex fontsize8px ">
-              <li className="width60per displayFlexColumn alignItemsLeft paddingLeft15px ">
+              <li className="width60per displayFlexColumn alignItemsLeft paddingLeft15px colorGrayLight ">
                 {(new Date().getFullYear())} Brand Name
               </li>
               <li className="width10per displayFlexColumn alignItemsCenter">
-                <a href="./tersofuse">Term of Use</a>
+                <a className="colorGrayLight" href="./tersofuse">Term of Use</a>
               </li>
               <li className="width15per displayFlexColumn alignItemsCenter">
-                <a href="./copywright">&copy; Copywright & Trademark</a>
+                <a className="colorGrayLight" href="./copywright">&copy; Copywright & Trademark</a>
               </li>
               <li className="width10per displayFlexColumn alignItemsCenter">
-                <a href="./privacypolicy">Privacy Policy</a>
+                <a className="colorGrayLight" href="./privacypolicy">Privacy Policy</a>
               </li>
             </ul>
           </div>

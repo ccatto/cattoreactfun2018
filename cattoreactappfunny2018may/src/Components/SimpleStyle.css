@@ -304,7 +304,6 @@
 .FooterBottomRowGutter{
     height: 45px;
     background: linear-gradient(#298FC2, #34302B); 
-    border-radius:25px;
 }
 .buttonBlue{
     background-color: #298FC2;
