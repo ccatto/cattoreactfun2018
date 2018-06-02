@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
       return (
         <div>
-           <h1>Home1</h1>
+           <h1>Alex the Greeat</h1>
            <ProductsRow/>
            <div className="displayFlexColumn">
               <div> some stuff</div>

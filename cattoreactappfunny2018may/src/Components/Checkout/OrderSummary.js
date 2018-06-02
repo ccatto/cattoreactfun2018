@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CartPromoCode from './CartPromoCode.js';
 import '../SimpleStyle.css';
 import './Cart.css';
+import buttonCounter from '../Utils/buttonCounter.js';
 
 class OrderSummary extends Component {
   render() {
@@ -37,24 +38,51 @@ class OrderSummary extends Component {
           <li><b>Total</b></li>
           <li><b>$8.88</b></li>
         </ul>
+        <br />
+        <br />
+        <h1>
+          buttonCounter
+        </h1>
+        <br />
+        <br />
+        <ul className="flexRowNoWrap">
+          <li className="width5per">
+          </li>
+          <li className="width90per minHeight45px">
+            <ul className="flexRowNoWrap minHeight45px">
+              <li className="width100 minHeight45px">
+
+
+                <ul className="flexRowNoWrap minHeight45px">
+                  <li className="width30per minHeight45px">
+                    <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
+                  </li>
+                  <li className="width70per minHeight45px">
+                    <span>Continue to Shipping</span>
+                  </li>
+                </ul>
+
+
+              </li>
+            </ul>
+          </li>
+        </ul>
         <hr className="width90per" />
         <CartPromoCode />
         <hr className="width90per" />
         <div>
           <ul className="flexRowNoWrap">
-
             <li className="width30px">
               <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
             </li>
             <li> <span>Continue to Shipping</span>
             </li>
           </ul>
-          <br /><br />
-
+          <br />
+          <br />
           <button className="width90per buttonBlue ">
-            <div  className="backgroundColorBlack width45px flexCenter ">
+            <div className="backgroundColorBlack width45px flexCenter ">
               text</div>
-
           </button>
           <br />
           <br />

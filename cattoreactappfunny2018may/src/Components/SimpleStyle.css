@@ -34,6 +34,16 @@
 .backgroundColorPaleVioletRed{
     background-color:palevioletred;
 }
+.backgroundColorBlueRegular{
+    background-color: blue;
+ }
+.backgroundColorLightGreen{
+    background-color: #ADDFAD;
+}
+.backgroundColorGreen{
+    background-color: green;
+}
+
 .colorGrayLight{
     color:#F2F2F2;
 }
@@ -163,6 +173,15 @@
 .height100{
     height:100%;
 }
+.minHeight15px{
+    min-height:15px;
+}
+.minHeight45px{
+    min-height:45px;
+}
+.width05per{
+    width:0.5%;
+}
 .width2per{
     width:2%;
 }
@@ -175,11 +194,17 @@
 .width10per{
     width:10%;
 }
+.width11per{
+    width:11%;
+}
 .width15per{
     width:15%;
 }
 .width20per{
     width:20%;
+}
+.width30per{
+    width:30%;
 }
 .width49per{
     width:49%;
@@ -219,6 +244,15 @@
 }
 .width100{
     width:100%;
+}
+.minWidth05per{
+    min-width: 0.5%;
+}
+.minWidth10per{
+    min-width: 10%;
+}
+.minWidth11per{
+    min-width: 11%;
 }
 .square5{
     width:5px;
@@ -299,7 +333,6 @@
 .paddingTop10px{
     padding-top:10px;
 }
-
 
 .FooterBottomRowGutter{
     height: 45px;

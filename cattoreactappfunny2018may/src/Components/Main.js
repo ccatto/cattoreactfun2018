@@ -7,7 +7,7 @@ class Main extends Component {
     render() {
       return (
         <main>
-          <h6>This is my Main component.</h6>
+          <h6>Alex the Greeat This is my Main component.</h6>
           <ReactRouting/>
         </main>
       );
