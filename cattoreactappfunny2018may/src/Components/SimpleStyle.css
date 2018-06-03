@@ -100,6 +100,9 @@
 .marginTop10px{
     margin-top: 10px;
 }
+.marginTop15px{
+    margin-top: 15px;
+}
 .marginTopBottom4px{
     margin-top: 4px;
     margin-bottom: 4px;
@@ -127,6 +130,9 @@
 }
 .justifyContentCenter{
     justify-content: center;
+}
+.justifyContentRight{
+    justify-content: right;
 }
 .justifyContentFlexEnd{
     justify-content: flex-end;
@@ -253,6 +259,12 @@
 }
 .minWidth11per{
     min-width: 11%;
+}
+.minWidth25per{
+    min-width: 25%;
+}
+.minWidth30per{
+    min-width: 30%;
 }
 .square5{
     width:5px;

@@ -35,70 +35,36 @@ class OrderSummary extends Component {
           <li>
             (-$0.01)
           </li>
-          <li><b>Total</b></li>
-          <li><b>$8.88</b></li>
+          <li><b>Total</b>
+          </li>
+          <li><b>$8.88</b>
+          </li>
         </ul>
-        <br />
-        <br />
-        <h1>
-          buttonCounter
-        </h1>
-        <br />
-        <br />
-        <ul className="flexRowNoWrap">
+        <ul className="flexRowNoWrap marginTop10px">
           <li className="width5per">
           </li>
           <li className="width90per minHeight45px">
-            <ul className="flexRowNoWrap minHeight45px">
-              <li className="width100 minHeight45px">
-
-
-                <ul className="flexRowNoWrap minHeight45px">
-                  <li className="width30per minHeight45px">
-                    <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
-                  </li>
-                  <li className="width70per minHeight45px">
-                    <span>Continue to Shipping</span>
-                  </li>
-                </ul>
-
-
-              </li>
-            </ul>
+            <button className="buttonBlue">
+              <ul className="flexRowNoWrap minHeight45px">
+                <li className="minWidth25per minHeight45px">
+                </li>
+                <li className="width70per minHeight45px textAlignLeft">
+                  <ul className="flexRowNoWrap minHeight45px">
+                    <li className="width10per minHeight45px justifyContentFlexEnd">
+                      <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
+                    </li>
+                    <li className="width70per minHeight45px">
+                      <span className="colorGrayLight">Continue to Shipping</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </button>
           </li>
         </ul>
-        <hr className="width90per" />
+        <hr className="width90per marginTop10px" />
         <CartPromoCode />
         <hr className="width90per" />
-        <div>
-          <ul className="flexRowNoWrap">
-            <li className="width30px">
-              <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
-            </li>
-            <li> <span>Continue to Shipping</span>
-            </li>
-          </ul>
-          <br />
-          <br />
-          <button className="width90per buttonBlue ">
-            <div className="backgroundColorBlack width45px flexCenter ">
-              text</div>
-          </button>
-          <br />
-          <br />
-          <button className="buttonContainer width90per buttonBlue">
-            <ul className="flexRowNoWrap">
-
-              <li className="width30px">
-                <img className="square25" src="https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png" />
-              </li>
-              <li> <span>Continue to Shipping</span>
-              </li>
-            </ul>
-
-          </button>
-
-        </div>
         <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width50per paddingBottom10px paddingTop10px" />
       </div>
     );
