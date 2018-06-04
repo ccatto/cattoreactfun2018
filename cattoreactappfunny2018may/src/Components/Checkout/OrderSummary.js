@@ -10,29 +10,30 @@ class OrderSummary extends Component {
       <div className="orderSummary colorGrayDark">
         <ul className="flexRow2Col70perLeft colorGrayDark">
           <li className="fontsize22px"><b>Order Summary</b></li>
-          <li>3 Items</li>
+          <li className="fontsize12px marginTop5px">2 Items</li>
           <li><hr /></li> <li><hr /></li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             Subtotal
           </li>
-          <li className="marginTop5px">$5.01
+          <li className="marginTop5px fontsize12px">
+            $5.01
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             Shipping
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             FREE
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             Estimated Tax
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             $0.06
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             Savings
           </li>
-          <li className="marginTop5px">
+          <li className="marginTop5px fontsize12px">
             (-$0.01)
           </li>
           <li className="marginTop15px fontsize22px"><b>Total</b>

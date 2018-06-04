@@ -1,6 +1,5 @@
-.some{
-    background-color: brown;
-}
+/* Simple CSS STyles*/
+
 .backgroundColorBlack{
     background-color: black;
 }
@@ -46,6 +45,18 @@
 .backgroundNImages{
     background: url(https://newellbrands-console.lrn.com/custom_files/6487_20575325_1497897209.png) scroll repeat-y left top transparent;
 }
+.bold{
+    font-family: 'Raleway Bold', sans-serif;
+}
+.borderRadius10px{
+    border-radius: 10px;
+}
+.borderRadius15px{
+    border-radius: 15px;
+}
+.borderRadius20px{
+    border-radius: 20px;
+}
 .colorGrayLight{
     color:#F2F2F2;
 }
@@ -67,107 +78,29 @@
 .colorPurple{
     color:purple;
 }
-.bold{
-    font-family: 'Raleway Bold', sans-serif;
-}
-.footerTop{
-    height:82px;
-    background-color: #298FC2;
-    color:#F2F2F2;
-}
-.ulFlex{
-    display: flex;
-    justify-content:space-around;
-
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    list-style: none;
-    text-align: center;
-}
-.listStyleTypeNone li{
-    list-style-type: none;
-    display:inline;
-}
-.listStyleTypeNone li input{
-    width: 100%;
-    font-size: 18px;
-    min-height:40px;
-}
-.listStyleTypeNone .displayFlexColumn{
-    display:flex;
-}
-.marginTop5px{
-    margin-top: 5px;
-}
-.marginTop10px{
-    margin-top: 10px;
-}
-.marginTop15px{
-    margin-top: 15px;
-}
-.marginTopBottom4px{
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-.marginTopBottom4px li{
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
-.marginLeft10px{
-    margin-left: 10px;
-}
-.displayFlexRow{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.displayFlexColumn{
-    display:flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.justifyContentCenter{
-    justify-content: center;
-}
-.justifyContentRight{
-    justify-content: right;
-}
-.justifyContentFlexEnd{
-    justify-content: flex-end;
-}
-.alignItemsCenter{
-    align-items: center;
-}
-.alignItemsLeft{
-    align-items: flex-start;
-}
-.textAlignLeft{
-    text-align:left;
-}
-.textAlignRight{
-    text-align: right;
-}
-.textAlignRight{
-    text-align:right;
-}
-.flex1{
-    flex:1;
-}
 .floatLeft{
     float:left;
 }
-.marginBottom10px{
-    margin-bottom: 10px;
+.fontsize8px{
+    font-size: 8px;
 }
-.paddingBottom10px{
-    padding-bottom: 10px;
+.fontsize10px{
+    font-size: 10px;
+}
+.fontsize12px{
+    font-size: 12px;
+}
+.fontsize14px{
+    font-size: 14px;
+}
+.fontsize16px{
+    font-size:16px;
+}
+.fontsize18px{
+    font-size:18px;
+}
+.fontsize22px{
+    font-size: 22px;
 }
 .height25px{
     height:25px;
@@ -184,11 +117,107 @@
 .height100{
     height:100%;
 }
+.marginTop5px{
+    margin-top: 5px;
+}
+.marginTop10px{
+    margin-top: 10px;
+}
+.marginTop15px{
+    margin-top: 15px;
+}
+.marginBottom5px{
+    margin-bottom:5px;
+}
+.marginTopBottom4px{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.marginTopBottom4px li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.marginLeft10px{
+    margin-left: 10px;
+}
+.marginBottom10px{
+    margin-bottom: 10px;
+}
 .minHeight15px{
     min-height:15px;
 }
 .minHeight45px{
     min-height:45px;
+}
+.minWidth05per{
+    min-width: 0.5%;
+}
+.minWidth10per{
+    min-width: 10%;
+}
+.minWidth11per{
+    min-width: 11%;
+}
+.minWidth25per{
+    min-width: 25%;
+}
+.minWidth30per{
+    min-width: 30%;
+}
+.paddingBottom10px{
+    padding-bottom: 10px;
+}
+.paddingTopBottom20px{
+    padding: 20px 0px 20px 0px;
+}
+.paddingTopBottom5px{
+    padding: 5px 0px 5px 0px;
+}
+.paddingTopBottom10px{
+    padding: 10px 0px 10px 0px;
+}
+.paddingLeft5px{
+    padding-left: 5px;
+}
+.paddingBottom10px{
+    padding-bottom:10px;
+}
+.paddingTop10px{
+    padding-top:10px;
+}
+.square5{
+    width:5px;
+    height:5px;
+}
+.square10{
+    width:10px;
+    height:10px;
+}
+.square15{
+    width:15px;
+    height:15px;
+}
+.square25{
+    width:25px;
+    height:25px;
+}
+.square30{
+    width:30px;
+    height:30px;
+}
+.square60{
+    width:60px;
+    height:60px;
+}
+.square100per{
+    width:100%;
+    height:100%;
+}
+.textAlignLeft{
+    text-align:left;
+}
+.textAlignRight{
+    text-align: right;
 }
 .width05per{
     width:0.5%;
@@ -256,141 +285,48 @@
 .width100{
     width:100%;
 }
-.minWidth05per{
-    min-width: 0.5%;
+
+
+
+
+
+
+
+
+/* Flex Section*/
+.displayFlexRow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
-.minWidth10per{
-    min-width: 10%;
+.displayFlexColumn{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.minWidth11per{
-    min-width: 11%;
+.flex1{
+    flex:1;
 }
-.minWidth25per{
-    min-width: 25%;
+.justifyContentCenter{
+    justify-content: center;
 }
-.minWidth30per{
-    min-width: 30%;
+.justifyContentRight{
+    justify-content: right;
 }
-.square5{
-    width:5px;
-    height:5px;
+.justifyContentFlexEnd{
+    justify-content: flex-end;
 }
-.square10{
-    width:10px;
-    height:10px;
+.alignItemsCenter{
+    align-items: center;
 }
-.square15{
-    width:15px;
-    height:15px;
-}
-.square25{
-    width:25px;
-    height:25px;
-}
-.square30{
-    width:30px;
-    height:30px;
-}
-.square60{
-    width:60px;
-    height:60px;
-}
-.square100per{
-    width:100%;
-    height:100%;
-}
-.navTop{
-    background-color: 34302B;
-}
-.nav2ndrow{
-    background-color: #298fc2;
-}
-.nav3rdrow{
-    background-color: #F2F2F2;
-}
-.nav3rdrow ul li{
-    width:15%;
-}
-.fontsize8px{
-    font-size: 8px;
-}
-.fontsize10px{
-    font-size: 10px;
-}
-.fontsize12px{
-    font-size: 12px;
-}
-.fontsize14px{
-    font-size: 14px;
-}
-.fontsize22px{
-    font-size: 22px;
-}
-.paddingTopBottom20px{
-    padding: 20px 0px 20px 0px;
-}
-.paddingTopBottom5px{
-    padding: 5px 0px 5px 0px;
-}
-.paddingTopBottom10px{
-    padding: 10px 0px 10px 0px;
-}
-.borderRadius10px{
-    border-radius: 10px;
-}
-.borderRadius15px{
-    border-radius: 15px;
-}
-.borderRadius20px{
-    border-radius: 20px;
-}
-.paddingLeft5px{
-    padding-left: 5px;
-}
-.paddingBottom10px{
-    padding-bottom:10px;
-}
-.paddingTop10px{
-    padding-top:10px;
+.alignItemsLeft{
+    align-items: flex-start;
 }
 
-.FooterBottomRowGutter{
-    height: 45px;
-    background: linear-gradient(#298FC2, #34302B); 
-}
-.buttonBlue{
-    background-color: #298FC2;
-    color:#f2f2f2;
-    height: 45px;
-    min-width:100px;
-    padding:0px 10px 0px 10px;
-    font-size: 12px;
-}
-.buttonBlue:hover{
-    color: #F2F2F2;
-    background-color:#14506B;
-}
-.buttonBlue:focus{
-    color: #F2F2F2;
-    background-color:#14506B;
-}
-.buttonBlue:disabled{
-    color: #F2F2F2;
-    background-color:#9ECEE4;
-}
-.buttonBlue:active{
-    color: #F2F2F2;
-    background-color:#14506B;
-    outline: 2px solid #14506B;
-    outline-offset: 3px;
-}
-.buttonContainer{
-    width: 90%; /*can be in percentage also.*/
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: relative;
-}
 
 
 /* FlexBox Generic Stackable Row */
@@ -475,10 +411,6 @@
     }
 }
 
-
-
-
-
 /* Generic Flex Row with 3 columns on Main center column & either side 1 || 2 % no wrap */
 .flexRow3ColGutters{
     display:flex;
@@ -521,13 +453,6 @@
         width:1%;
     }
 }
-
-
-
-
-
-
-
 
 /* FlexBox Generic 3 column Stackable Row left col about 60% & right column 1/3ish */
 .flexRow2ColThirdsStackable{
@@ -580,7 +505,6 @@
     }
 }
 
-
 /* FlexBox Generic 3 column Stackable Row left col about 60% & right column 1/3ish */
 .flexRow5Col{
     display:flex;
@@ -608,26 +532,25 @@
     flex-wrap: nowrap;
 }
 .flexRow5Col > li:nth-child(4){
-    width:32%;
+    width:40%;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
 .flexRow5Col > li:nth-child(6){
-    width:15%;
+    width:13%;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
 .flexRow5Col > li:nth-child(8){
-    width:10%;
+    width:6%;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
 .flexRow5Col > li:nth-child(10){
-    width:19%;
+    width:17%;
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
 }
-
 
 /* FlexBox Generic 4 column Stackable Row  */
 .flexRow4ColStackable{
@@ -691,7 +614,6 @@
     justify-content: center;
     flex-direction: column;
 }
-
 .flexRowNoWrap{
     display:flex;
     -ms-box-orient: horizontal;
@@ -713,8 +635,40 @@
     justify-content: center;
     flex-direction: column;
 }
-
-
+.flexRowNoWrapAlignLeft{
+    display:flex;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    list-style-type:none;
+    /* margin: ; */
+    padding: 0;
+    flex-wrap: nowrap;
+    align-items: start;
+    text-align: left;
+}
+.flexRowNoWrapNoAlign{
+    display:flex;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    list-style-type:none;
+    /* margin: ; */
+    padding: 0;
+    flex-wrap: nowrap;
+}
+.flexAlignRight{
+    align-items: end;
+    text-align: right;
+}
 .flexRowWrap{
     display:flex;
     -ms-box-orient: horizontal;
@@ -739,23 +693,102 @@
 }
 @media screen and (max-width: 480px) {
     .flexRowWrap > li:nth-child(odd){
-          width:100%;
-          -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-      }
-      .flexRowWrap > li:nth-child(even){
-          width: 100%;
-          height: 10px;
-          -webkit-flex-wrap: wrap;
-          flex-wrap: wrap;
-      }
-  }
-
-  .flexCenter{
+        width:100%;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .flexRowWrap > li:nth-child(even){
+        width: 100%;
+        height: 10px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+.flexCenter{
     /* padding: 0;
     margin: 0; */
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+.ulFlex{
+    display: flex;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    list-style: none;
+    text-align: center;
+}
+.listStyleTypeNone li{
+    list-style-type: none;
+    display:inline;
+}
+.listStyleTypeNone li input{
+    width: 100%;
+    font-size: 18px;
+    min-height:40px;
+}
+.listStyleTypeNone .displayFlexColumn{
+    display:flex;
+}
+
+
+/* General Sections */
+.buttonBlue{
+    background-color: #298FC2;
+    color:#f2f2f2;
+    height: 45px;
+    min-width:100px;
+    padding:0px 10px 0px 10px;
+    font-size: 12px;
+}
+.buttonBlue:hover{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonBlue:focus{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonBlue:disabled{
+    color: #F2F2F2;
+    background-color:#9ECEE4;
+}
+.buttonBlue:active{
+    color: #F2F2F2;
+    background-color:#14506B;
+    outline: 2px solid #14506B;
+    outline-offset: 3px;
+}
+.buttonContainer{
+    width: 90%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+.FooterBottomRowGutter{
+    height: 45px;
+    background: linear-gradient(#298FC2, #34302B); 
+}
+.footerTop{
+    height:82px;
+    background-color: #298FC2;
+    color:#F2F2F2;
+}
+.navTop{
+    background-color: 34302B;
+}
+.nav2ndrow{
+    background-color: #298fc2;
+}
+.nav3rdrow{
+    background-color: #F2F2F2;
+}
+.nav3rdrow ul li{
+    width:15%;
+}

@@ -92,8 +92,10 @@
   text-align:right;
 }
 
-
-
+.garbageMargin{
+    margin-top: -1px;
+    margin-right: 2px;
+}
 
 
 
