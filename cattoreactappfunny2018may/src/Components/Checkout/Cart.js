@@ -11,7 +11,7 @@ class Cart extends Component {
         <ul className="flexRow3ColGutters cart">
           <li></li>
           <li>
-            <h1>Shopping Basket (2)</h1>
+            <h2 className="textAlignLeft">Shopping Basket (2)</h2>
             <ul className="flexRow2ColThirdsStackable">
               <li className="backgroundColorGrayDark">
                 <CartProductDetail/>

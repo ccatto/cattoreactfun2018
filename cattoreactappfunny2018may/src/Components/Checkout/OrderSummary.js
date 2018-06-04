@@ -9,35 +9,35 @@ class OrderSummary extends Component {
     return (
       <div className="orderSummary colorGrayDark">
         <ul className="flexRow2Col70perLeft colorGrayDark">
-          <li><b>Order Summary</b></li>
-          <li><b>3 Items</b></li>
+          <li className="fontsize22px"><b>Order Summary</b></li>
+          <li>3 Items</li>
           <li><hr /></li> <li><hr /></li>
-          <li>
+          <li className="marginTop5px">
             Subtotal
           </li>
-          <li>$5.01
+          <li className="marginTop5px">$5.01
           </li>
-          <li>
+          <li className="marginTop5px">
             Shipping
           </li>
-          <li>
+          <li className="marginTop5px">
             FREE
           </li>
-          <li>
+          <li className="marginTop5px">
             Estimated Tax
           </li>
-          <li>
+          <li className="marginTop5px">
             $0.06
           </li>
-          <li>
+          <li className="marginTop5px">
             Savings
           </li>
-          <li>
+          <li className="marginTop5px">
             (-$0.01)
           </li>
-          <li><b>Total</b>
+          <li className="marginTop15px fontsize22px"><b>Total</b>
           </li>
-          <li><b>$8.88</b>
+          <li className="marginTop15px fontsize22px"><b>$8.88</b>
           </li>
         </ul>
         <ul className="flexRowNoWrap marginTop10px">
@@ -62,10 +62,10 @@ class OrderSummary extends Component {
             </button>
           </li>
         </ul>
-        <hr className="width90per marginTop10px" />
+        <hr className="width90per marginTop15px" />
         <CartPromoCode />
         <hr className="width90per" />
-        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width50per paddingBottom10px paddingTop10px" />
+        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width60per paddingBottom10px paddingTop10px" />
       </div>
     );
   }

@@ -6,14 +6,14 @@ onClick = () => {
 };
 
 
-class nButton extends Component {
+class nInput extends Component {
   render() {
     return (
-      <button onClick={this.onClick}>
-        Button Text       
-      </button>
+      <input onClick={this.onClick}>
+             
+      </input>
     );
   }
 }
 
-export default nButton;
+export default nInput;

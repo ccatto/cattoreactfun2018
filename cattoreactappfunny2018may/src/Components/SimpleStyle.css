@@ -97,6 +97,9 @@
 .listStyleTypeNone .displayFlexColumn{
     display:flex;
 }
+.marginTop5px{
+    margin-top: 5px;
+}
 .marginTop10px{
     margin-top: 10px;
 }
@@ -317,6 +320,9 @@
 }
 .fontsize14px{
     font-size: 14px;
+}
+.fontsize22px{
+    font-size: 22px;
 }
 .paddingTopBottom20px{
     padding: 20px 0px 20px 0px;
