@@ -15,10 +15,9 @@ class ProductTile4 extends Component {
         <li className="marginLeft5px">
           <Ratings />
         </li>
-        <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+        <li className="minHeight80px fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
           Oster® Blend-N-Go® My Blend® Blender
-        </li>
-        <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+        <br />
           Black, BLSTPB-BBL
         </li>
         <li className="minHeight45px">

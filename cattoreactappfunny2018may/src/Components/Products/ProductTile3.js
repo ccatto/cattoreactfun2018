@@ -15,10 +15,9 @@ class ProductTile3 extends Component {
         <li className="marginLeft5px">
           <Ratings />
         </li>
-        <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
-          Crock-Pot 6 Qt 8-in-1 Multi-Use Express 
-        </li>
-        <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+        <li className="minHeight80px fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+          Crock-Pot 6 Qt 8-in-1 Multi-Use Express
+        <br />
           Crock Programmable Slow Cooker
         </li>
         <li className="minHeight45px">

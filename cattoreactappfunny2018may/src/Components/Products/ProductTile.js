@@ -14,10 +14,9 @@ class ProductTile extends Component {
                 <li className="marginLeft5px">
                     <Ratings />
                 </li>
-                <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+                <li className="minHeight80px fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
                     FoodSaver® GameSaver® 8" x 20'
-                </li>
-                <li className="fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
+                    <br/>
                     Long Vacuum-Seal Rolls, 6 Pack
                 </li>
                 <li className="minHeight45px">
