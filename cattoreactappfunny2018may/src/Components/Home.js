@@ -1,17 +1,12 @@
 import React, { Component } from 'react';
-
-import ProductsRow from './ProductsRow.js';
+import ProductsRow from './Products/ProductsRow.js';
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <h1>Home</h1>
+        <h1>Welcome to NB</h1>
         <ProductsRow />
-        <div className="displayFlexColumn">
-          <div> some stuff</div>
-          <div> other stuff</div>
-        </div>
       </div>
     );
   }

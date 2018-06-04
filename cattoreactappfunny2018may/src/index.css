@@ -6,19 +6,20 @@ body{
   margin:0;
 }
 main{
-  background-color: orange;
+  background-color:#34302B;
+  color:white;
 }
 footer{
   /* background-color: blue; */
 }
 header{
-  background-color: gray;
+  background-color: #34302B;
 } 
 html {
   height: 100%;
 }
 nav{
-  background-color: #282828;
+  background-color: #34302B;
   color:white;
 }
 

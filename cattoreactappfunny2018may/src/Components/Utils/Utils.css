@@ -64,3 +64,42 @@ select > option {
     background: #D3D3D3;
     color: #34302B;
 }
+
+
+
+
+/* General Sections */
+.buttonWhite{
+    background-color: #F2F2F2;
+    color:#298FC2;
+    height: 30px;
+    width:100%;
+    padding:0px 10px 0px 10px;
+    font-size: 12px;
+    border: 1px solid #298FC2;
+}
+.buttonWhite:hover{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonWhite:focus{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonWhite:disabled{
+    color: #F2F2F2;
+    background-color:#9ECEE4;
+}
+.buttonWhite:active{
+    color: #F2F2F2;
+    background-color:#14506B;
+    outline: 2px solid #14506B;
+    outline-offset: 3px;
+}
+.buttonContainer{
+    width: 90%; /*can be in percentage also.*/
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}

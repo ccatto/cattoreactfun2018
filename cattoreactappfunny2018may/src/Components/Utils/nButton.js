@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class ComponentName extends Component {
+class nButton extends Component {
   render() {
     return (
       <div>
@@ -11,4 +11,4 @@ class ComponentName extends Component {
   }
 }
 
-export default ComponentName;
+export default nButton;

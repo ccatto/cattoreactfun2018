@@ -102,6 +102,9 @@
 .fontsize22px{
     font-size: 22px;
 }
+.height10px{
+    height:10px;
+}
 .height25px{
     height:25px;
 }
@@ -117,8 +120,20 @@
 .height100{
     height:100%;
 }
+.margin5px{
+    margin:5px 5px 5px 5px;
+}
+.marginLeft5px{
+    margin-left: 5px;
+}
+.marginRight5px{
+    margin-right: 5px;
+}
 .marginTop5px{
     margin-top: 5px;
+}
+.marginTopMinus8px{
+    margin-top: -8px;
 }
 .marginTop10px{
     margin-top: 10px;
@@ -147,11 +162,20 @@
 .marginBottom10px{
     margin-bottom: 10px;
 }
+.marginBottom20px{
+    margin-bottom: 20px;
+}
+.minHeight10px{
+    min-height:10px;
+}
 .minHeight15px{
     min-height:15px;
 }
 .minHeight45px{
     min-height:45px;
+}
+.minHeight320px{
+    min-height:320px;
 }
 .minWidth05per{
     min-width: 0.5%;
@@ -272,6 +296,9 @@
 .width70per{
     width:70%;
 }
+.width80per{
+    width:80%;
+}
 .width90per{
     width:90%;
 }
@@ -366,54 +393,42 @@
 }
 .flexRow2ColStackable li:nth-child(3){
     width:2%;
-    /* background-color:orange; */
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    /* background-color:#B4B0AB; */
 }
 .flexRow2ColStackable li:nth-child(4){
     width:0%;
-    /* background-color:orange; */
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 .flexRow2ColStackable li:nth-child(5){
   width:37%;
-  /* background-color:black; */
-  /* color:white; */
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .flexRow2ColStackable li:nth-child(6){
     width:2%;
-    /* background-color:orange; */
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 @media screen and (max-width: 480px) {
   .flexRow2ColStackable li:nth-child(2){
         width:96%;
-        /* background-color:purple; */
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .flexRow2ColStackable li:nth-child(3){
         width:2%;
-        /* background-color:orange; */
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
-        /* background-color:#B4B0AB; */
     }
     .flexRow2ColStackable li:nth-child(4){
         width:2%;
-        /* background-color:orange; */
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
-        /* background-color:#B4B0AB; */
     }
     .flexRow2ColStackable  li:nth-child(5){
         widtH:96%;
-        /* background-color:green; */
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }

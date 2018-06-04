@@ -3,11 +3,6 @@
     background-color: #34302B;
     color: #F2F2F2;
 }
-/* @media screen and (max-width: 480px) {
-    .cart ul li:nth-child(5){
-        background-color: #34302B;
-    }
-} */
 .orderSummary{
     background-color: #F2F2F2;
 }
@@ -30,36 +25,30 @@
 }
 .flexRow2Col60perLeft li:nth-child(1){
   width:59%;
-  /* background-color:orange; */
-    -webkit-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 .flexRow2Col60perLeft li:nth-child(2){
     width:2%;
-    /* background-color:orange; */
-      -webkit-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     background-color:#B4B0AB;
   }
 .flexRow2Col60perLeft li:nth-child(3){
   width:39%;
-  /* background-color:black; */
-  /* color:white; */
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 @media screen and (max-width: 480px) {
   .flexRow2Col60perLeft li:nth-child(1){
-    width:100%;
-    /* background-color:purple; */
+        width:100%;
         -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .flexRow2Col60perLeft  li:nth-child(2){
-    widtH:100%;
-    /* background-color:green; */
+        widtH:100%;
         -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
 
