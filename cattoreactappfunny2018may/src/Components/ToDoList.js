@@ -22,8 +22,8 @@ class ToDoList extends Component {
           <li>
             JSX .js File formating in VS Code
             </li>
-            <li>
-              Globalization - enable mulit languages 
+          <li>
+            Globalization - enable mulit languages
             </li>
           <li>
             Next thing

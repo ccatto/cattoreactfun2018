@@ -43,7 +43,9 @@
 .backgroundColorGreen{
     background-color: green;
 }
-
+.backgroundNImages{
+    background: url(https://newellbrands-console.lrn.com/custom_files/6487_20575325_1497897209.png) scroll repeat-y left top transparent;
+}
 .colorGrayLight{
     color:#F2F2F2;
 }
