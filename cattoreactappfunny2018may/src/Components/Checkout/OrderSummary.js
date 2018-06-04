@@ -16,7 +16,7 @@ class OrderSummary extends Component {
             Subtotal
           </li>
           <li className="marginTop5px fontsize12px">
-            $5.01
+            $149.98
           </li>
           <li className="marginTop5px fontsize12px">
             Shipping
@@ -28,17 +28,17 @@ class OrderSummary extends Component {
             Estimated Tax
           </li>
           <li className="marginTop5px fontsize12px">
-            $0.06
+            $0.00
           </li>
           <li className="marginTop5px fontsize12px">
             Savings
           </li>
           <li className="marginTop5px fontsize12px">
-            (-$0.01)
+            (-$0.00)
           </li>
           <li className="marginTop15px fontsize22px"><b>Total</b>
           </li>
-          <li className="marginTop15px fontsize22px"><b>$8.88</b>
+          <li className="marginTop15px fontsize22px"><b>$149.98</b>
           </li>
         </ul>
         <ul className="flexRowNoWrap marginTop10px">

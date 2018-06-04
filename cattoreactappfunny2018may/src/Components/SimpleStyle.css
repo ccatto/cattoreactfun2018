@@ -137,6 +137,10 @@
     margin-top: 4px;
     margin-bottom: 4px;
 }
+.marginTopBottom5px{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .marginLeft10px{
     margin-left: 10px;
 }
@@ -204,6 +208,10 @@
 .square30{
     width:30px;
     height:30px;
+}
+.square50{
+    width:50px;
+    height:50px;
 }
 .square60{
     width:60px;
@@ -781,10 +789,12 @@
     color:#F2F2F2;
 }
 .navTop{
-    background-color: 34302B;
+    background-color: #34302B;
 }
 .nav2ndrow{
-    background-color: #298fc2;
+    background-color: #298FC2;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 .nav3rdrow{
     background-color: #F2F2F2;

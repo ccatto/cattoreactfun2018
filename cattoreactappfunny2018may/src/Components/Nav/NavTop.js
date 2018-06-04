@@ -5,7 +5,7 @@ import headset from '../../Images/headset.png';
 class NavTop extends Component {
   render() {
     return (
-      <div className="backgroundColorBlack">
+      <div className="navTop">
         <ul className="listStyleTypeNone ulFlex">
           <li className="width65per displayFlexColumn alignItemsLeft fontsize8px ">
             <span className="paddingLeft5px">

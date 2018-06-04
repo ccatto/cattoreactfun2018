@@ -6,7 +6,7 @@ class Account extends Component {
     return (
       <div>
         <h1> OL' Account </h1>
-    </div>
+      </div>
     );
   }
 }

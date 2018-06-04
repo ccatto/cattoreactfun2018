@@ -10,7 +10,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <RainbowRow/>
+        <RainbowRow />
         <FooterTop />
         <FooterMiddleFourColumn />
         <FooterBottomRow />

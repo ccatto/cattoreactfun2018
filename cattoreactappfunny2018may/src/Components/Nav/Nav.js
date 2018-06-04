@@ -12,7 +12,7 @@ class Nav extends Component {
         <NavTop />
         <NavSecondRow />
         <NavThirdRow />
-        <RainbowRow/>
+        <RainbowRow />
       </nav>
     );
   }

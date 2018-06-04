@@ -12,7 +12,7 @@ class FooterTop extends Component {
           <ul className="flexRowWrap height80px ">
             <li className="width49per textAlignLeft height60px">
               <FooterEmailSubscription />
-              </li>
+            </li>
             <li className="width2per">
             </li>
             <li className="width49per textAlignRight height60px">

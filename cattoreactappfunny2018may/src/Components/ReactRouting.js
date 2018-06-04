@@ -9,14 +9,14 @@ import Cart from './Checkout/Cart.js'
 class ReactRouting extends Component {
   render() {
     return (
-        <Router>
-          <switch>
+      <Router>
+        <switch>
           <Route exact path='/' component={Home} />
           <Route path='/account' component={Account} />
           <Route path='/cart' component={Cart} />
           <Route path='/todolist' component={ToDoList} />
-          </switch>
-        </Router>
+        </switch>
+      </Router>
     );
   }
 }
