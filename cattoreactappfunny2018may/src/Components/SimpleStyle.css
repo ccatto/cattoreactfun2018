@@ -342,6 +342,12 @@
 
 
 /* Flex Section*/
+
+.flexboxCenter{
+    display: flex;
+    align-items: center;
+}
+
 .displayFlexRow{
     display:flex;
     align-items: center;
