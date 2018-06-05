@@ -3,8 +3,11 @@ import CartPromoCode from './CartPromoCode.js';
 import '../SimpleStyle.css';
 import './Cart.css';
 import buttonCounter from '../Utils/buttonCounter.js';
+import GetVertexTax from './GetVertexTax.js';
+
 
 class OrderSummary extends Component {
+
   render() {
     return (
       <div className="orderSummary colorGrayDark">
@@ -34,7 +37,7 @@ class OrderSummary extends Component {
             Tax Call btn:
             </li>
           <li className="marginTop5px fontsize12px">
-            <button className="buttonBlueGeneric">Get Tax</button>
+            <button onClick={this.taxButtonClicked} className="buttonBlueGeneric ">Get Tax</button>
           </li>
           <li className="marginTop5px fontsize12px">
             Savings

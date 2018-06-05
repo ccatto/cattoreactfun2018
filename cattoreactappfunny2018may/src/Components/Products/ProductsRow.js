@@ -10,6 +10,8 @@ import ProductTile1 from './ProductTile1.js';
 import ProductTile9 from './ProductTile9.js';
 import ProductTile3 from './ProductTile3.js';
 import ProductTile4 from './ProductTile4.js';
+import ProductTile2 from './ProductTile2.js';
+
 import '../SimpleStyle.css';
 
 class ProductsRow extends Component {
@@ -26,7 +28,7 @@ class ProductsRow extends Component {
           <li className="width4per">
           </li>
           <li className="width20per">
-            <ProductTile9 />
+            <ProductTile1 />
           </li>
           <li className="width4per">
           </li>

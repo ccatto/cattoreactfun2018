@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import OrderSummary from './OrderSummary';
+import OrderSummaryTax from './OrderSummaryTax';
 import CartProductDetail from './CartProductDetail';
 import CartProductDetail1 from './CartProductDetail1.js';
 import '../SimpleStyle.css';
@@ -22,7 +23,9 @@ class Cart extends Component {
               <li className="backgroundColorGrayDark" >
               </li>
               <li className="backgroundColorGrayDark" >
-                <OrderSummary/>
+              <OrderSummaryTax/>
+              <br/>
+              <OrderSummary/>
               </li>
             </ul>
           </li>
