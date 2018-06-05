@@ -258,6 +258,9 @@
 .textAlignRight{
     text-align: right;
 }
+.verticalAlignMiddle{
+    vertical-align: middle;
+}
 .width05per{
     width:0.5%;
 }
@@ -851,4 +854,13 @@
 }
 .nav3rdrow ul li{
     width:15%;
+}
+.buttonOrderSummary{
+    background: url("https://www.intel.com/content/dam/www/public/us/en/images/distributor/distributor-icon-lock-white-rwd.png.rendition.intel.web.256.192.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 25px;
+    display: inline-block;
+    vertical-align:middle;
 }
