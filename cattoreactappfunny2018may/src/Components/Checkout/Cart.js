@@ -16,22 +16,20 @@ class Cart extends Component {
             <h2 className="textAlignLeft">Shopping Basket (2)</h2>
             <ul className="flexRow2ColThirdsStackable">
               <li className="backgroundColorGrayDark">
-                <CartProductDetail/>
-                <br/>
-                <CartProductDetail1/>
+                <CartProductDetail />
+                <br />
+                <CartProductDetail1 />
               </li>
               <li className="backgroundColorGrayDark" >
               </li>
               <li className="backgroundColorGrayDark" >
-              <OrderSummaryTax/>
-              <br/>
-              <OrderSummary/>
+                <OrderSummaryTax />
               </li>
             </ul>
           </li>
           <li></li>
         </ul>
-        <br/>
+        <br />
       </div>
     );
   }

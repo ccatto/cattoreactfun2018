@@ -847,6 +847,21 @@
     background-color: #298FC2;
     color:#F2F2F2;
 }
+/* input wiht magnifying glass on right */
+.inputIconWrap{
+    border: 3px solid #34302B;    
+    display: flex;
+    flex-direction: row;
+}
+.buttonMag{
+    background-image: url("../Images/RedStar1.png");
+    background-repeat: no-repeat;
+    flex: 0 0 auto;
+}
+.inputFlex10{
+    flex: 1 0 8em;
+}
+
 .navTop{
     background-color: #34302B;
 }
