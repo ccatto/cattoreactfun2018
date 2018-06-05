@@ -7,7 +7,7 @@ import redstar from '../../Images/redstar.png';
 import Ratings from '../Utils/Ratings.js';
 import ProductTile from './ProductTile.js';
 import ProductTile1 from './ProductTile1.js';
-import ProductTile2 from './ProductTile2.js';
+import ProductTile9 from './ProductTile9.js';
 import ProductTile3 from './ProductTile3.js';
 import ProductTile4 from './ProductTile4.js';
 import '../SimpleStyle.css';
@@ -26,7 +26,7 @@ class ProductsRow extends Component {
           <li className="width4per">
           </li>
           <li className="width20per">
-            <ProductTile1 />
+            <ProductTile9 />
           </li>
           <li className="width4per">
           </li>

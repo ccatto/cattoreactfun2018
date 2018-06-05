@@ -248,6 +248,10 @@
     width:100%;
     height:100%;
 }
+.square150px{
+    height: 150px;
+    width:150px;
+}
 .textAlignLeft{
     text-align:left;
 }
@@ -280,6 +284,9 @@
 }
 .width30per{
     width:30%;
+}
+.width35per{
+    width:35%;
 }
 .width49per{
     width:49%;
@@ -796,6 +803,31 @@
     margin: 0 auto;
     padding: 10px;
     position: relative;
+}
+
+.buttonBlueGeneric{
+    background-color: #298FC2;
+    color:#f2f2f2;
+    padding:0px 10px 0px 10px;
+    font-size: 12px;
+}
+.buttonBlueGeneric:hover{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonBlueGeneric:focus{
+    color: #F2F2F2;
+    background-color:#14506B;
+}
+.buttonBlueGeneric:disabled{
+    color: #F2F2F2;
+    background-color:#9ECEE4;
+}
+.buttonBlueGeneric:active{
+    color: #F2F2F2;
+    background-color:#14506B;
+    outline: 2px solid #14506B;
+    outline-offset: 3px;
 }
 .FooterBottomRowGutter{
     height: 45px;
