@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import '../SimpleStyle.css';
+
 import magnifyingGlass from '../../Images/magnifyingGlass.png';
+import './Utils.css';
 
 var buttonImage = {
   backgroundImage: `url(${magnifyingGlass})`
