@@ -123,6 +123,30 @@ select > option {
     outline: 2px solid #14506B;
     outline-offset: 4px;
 }
+.inputSubmitButtonWrap{
+    border: 2px solid #34302B;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:225px;
+    height:25px;
+}
+.inputButtonSubmit{
+    flex: 0 0 auto;
+    color:#F2F2F2;
+    background-color:#34302B;
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+}
+.inputButtonSubmit:hover{
+    color:#F2F2F2;
+    background-color:#14506B;
+}
+.inputButtonSubmit:active{
+    color:#F2F2F2;
+    background-color:#14506B;
+    outline: 2px solid #14506B;
+    outline-offset: 4px;
+}
 .inputFlex10{
     flex: 1 0 8em;
 }
