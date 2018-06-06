@@ -10,12 +10,12 @@ class ReactRouting extends Component {
   render() {
     return (
       <Router>
-        <switch>
+        <div>
           <Route exact path='/' component={Home} />
           <Route path='/account' component={Account} />
           <Route path='/cart' component={Cart} />
           <Route path='/todolist' component={ToDoList} />
-        </switch>
+        </div>
       </Router>
     );
   }
