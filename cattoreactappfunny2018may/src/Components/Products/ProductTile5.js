@@ -7,7 +7,7 @@ import product1 from '../../Images/product1.jpg';
 class ProductTile5 extends Component {
   render() {
     return (
-        <ul className="displayFlexColumn alignItemsLeft">
+      <ul className="displayFlexColumn alignItemsLeft">
         <li> <img className="square100per borderRadius15px" src={product1} />
         </li>
         <li>

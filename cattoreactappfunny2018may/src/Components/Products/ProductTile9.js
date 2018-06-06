@@ -16,9 +16,9 @@ class ProductTile9 extends Component {
           <Ratings />
         </li>
         <li className="minHeight80px fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
-        Calphalon Premier™ Space Saving Stainless Steel
+          Calphalon Premier™ Space Saving Stainless Steel
         <br />
-        10-Piece Cookware Set
+          10-Piece Cookware Set
         </li>
         <li className="minHeight45px">
         </li>

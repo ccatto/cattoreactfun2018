@@ -42,7 +42,7 @@ class CartProductDetail1 extends Component {
             </div>
             <div className="fontsize10px marginTop10px" >
               <img className="square10 garbageMargin" src="https://cdn0.iconfinder.com/data/icons/business-and-office-3-1/24/102-512.png" alt={"2018 Garbage Can"} />
-              Remove  
+              Remove
             </div>
           </li>
           <li></li>

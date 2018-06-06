@@ -11,7 +11,7 @@ class FooterBottomRow extends Component {
             <ul className="listStyleTypeNone ulFlex fontsize8px ">
               <li className="width60per displayFlexColumn alignItemsLeft paddingLeft15px colorGrayLight ">
                 {(new Date().getFullYear())} Brand Name
-              </li>
+              </li>´
               <li className="width10per displayFlexColumn alignItemsCenter">
                 <a className="colorGrayLight noUnderlineOnlyOnHover" href="./tersofuse">Term of Use</a>
               </li>

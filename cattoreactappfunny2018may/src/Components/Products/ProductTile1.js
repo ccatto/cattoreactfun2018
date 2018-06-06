@@ -18,7 +18,7 @@ class ProductTile1 extends Component {
         <li className="minHeight80px fontsize12px alignItemsLeft textAlignLeft marginLeft5px">
           Rawlings 13'' GG Elite Series
         <br />
-           First Base Mitt 2018
+          First Base Mitt 2018
         </li>
         <li className="minHeight45px">
         </li>

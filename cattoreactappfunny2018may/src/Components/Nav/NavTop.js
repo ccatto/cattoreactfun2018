@@ -26,7 +26,7 @@ class NavTop extends Component {
           </li>
           <li className="width10per fontsize8px">
             <span className="displayFlexRow">
-              <img className="square15" src="https://cdn3.iconfinder.com/data/icons/flags-circle/100/USA_-128.png" alt={"US Flag"}/>
+              <img className="square15" src="https://cdn3.iconfinder.com/data/icons/flags-circle/100/USA_-128.png" alt={"US Flag"} />
               <span className="paddingLeft5px">English (US)
                 </span>
             </span>

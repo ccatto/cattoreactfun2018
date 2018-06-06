@@ -8,6 +8,9 @@ import GetVertexTax from './GetVertexTax.js';
 
 class OrderSummary extends Component {
 
+
+
+
   render() {
     return (
       <div className="orderSummary colorGrayDark">
