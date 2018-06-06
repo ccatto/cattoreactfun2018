@@ -1,5 +1,7 @@
 /* Simple CSS STyles*/
-
+.alignContentFlexEndRight{
+    align-content: flex-end;
+}
 .backgroundColorBlack{
     background-color: black;
 }
@@ -81,6 +83,9 @@
 .colorPurple{
     color:purple;
 }
+.displayNone{
+    display:none;
+}
 .floatLeft{
     float:left;
 }
@@ -129,8 +134,14 @@
 .margin5px{
     margin:5px 5px 5px 5px;
 }
+.marginLeft5per{
+    margin-left: 5%;
+}
 .marginLeft5px{
     margin-left: 5px;
+}
+.marginRight5per{
+    margin-right: 5%;
 }
 .marginRight5px{
     margin-right: 5px;
@@ -258,6 +269,9 @@
     height: 150px;
     width:150px;
 }
+.textAlignCenter{
+    text-align:center;
+}
 .textAlignLeft{
     text-align:left;
 }
@@ -353,7 +367,9 @@
     display: flex;
     align-items: center;
 }
-
+.displayFlex{
+    display:flex;
+}
 .displayFlexRow{
     display:flex;
     align-items: center;
@@ -379,6 +395,9 @@
 }
 .justifyContentFlexEnd{
     justify-content: flex-end;
+}
+.justifyContentFlexStart{
+    justify-content: flex-start;
 }
 .alignItemsCenter{
     align-items: center;

@@ -3,14 +3,27 @@ import CartPromoCode from './CartPromoCode.js';
 import '../SimpleStyle.css';
 import './Cart.css';
 import NButtonOrderSummary from '../Utils/NButtonOrderSummary.js';
+import { Router, Route, withRouter } from 'react-router';
 
 class OrderSummaryTax extends Component {
 
   constructor(props) {
 
     super(props);
-    this.state = { taxes: "0.00" };
+    this.state = { taxes: "-.--" };
+    this.navigateToHome = this.navigateToHome.bind(this);
   }
+
+  handleClick = () => {
+    console.log('HERE!', this.contextTypes);
+    // this.context.location.transitionTo('login');
+    // this.props.router.push("/home");
+  };
+
+
+  navigateToHome() {
+    this.props.router.push("/HomePage");
+  };
 
   componentDidMount() {
 
@@ -112,7 +125,7 @@ class OrderSummaryTax extends Component {
 
     let myQuantity = 1
       , myProductId = "GBQ100-000"
-      , myUnitPrice = 35.99;
+      , myUnitPrice = 75.01;
 
     let lineItemCounter = 1;
     let totalItems = 0;
@@ -187,7 +200,7 @@ class OrderSummaryTax extends Component {
         }
         let totalTaxFromXML = xmlDoc.getElementsByTagName("TotalTax")[0].childNodes[0].nodeValue;
         console.log("!!!! totalTaxFromXML == ", totalTaxFromXML);
-        this.setState({ taxes: totalTaxFromXML });
+        this.setState({ taxes: parseFloat(totalTaxFromXML).toFixed(2) });
         console.log("taxes from state right away in .then: ", this.state.taxes);
       })
       .catch(function (err) {
@@ -236,20 +249,25 @@ class OrderSummaryTax extends Component {
           <li className="marginTop5px fontsize12px">
             (-$0.00)
           </li>
-          <li className="marginTop15px fontsize22px"><b>Total</b>
-          </li>
-          <li className="marginTop15px fontsize22px"><b>$149.98</b>
-          </li>
         </ul>
+        <div className="displayFlex fontsize22px marginTop5px marginLeft5per marginRight5per">
+          <span className="width30per textAlignLeft">
+            <b>Total</b>
+          </span>
+          <span className="width70per textAlignRight">
+            <b>$160.47</b>
+          </span>
+        </div>
+        <button className="displayNone" onClick={this.handleClick} >hey </button>
         <NButtonOrderSummary />
         <hr className="width90per marginTop15px" />
         <CartPromoCode />
         <hr className="width90per" />
-        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width60per paddingBottom10px paddingTop10px" alt={"Payment Mehtods"}/>
-      </div>
+        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width60per paddingBottom10px paddingTop10px" alt={"Payment Mehtods"} />
+      </div >
 
     );
   }
 }
 
-export default OrderSummaryTax;
+export default withRouter(OrderSummaryTax);
