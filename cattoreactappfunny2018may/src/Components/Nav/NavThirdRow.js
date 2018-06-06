@@ -7,16 +7,16 @@ class NavThirdRow extends Component {
       <div className="nav3rdrow displayFlexRow">
         <ul className="listStyleTypeNone displayFlexRow width100">
           <li className="width15per">
-            <a href='/'>Live</a>
+            <a className="noUnderlineOnlyOnHover" href='/'>Live</a>
           </li>
           <li>
-            <a href='/todolist'>Learn</a>
+            <a className="noUnderlineOnlyOnHover" href='/todolist'>Learn</a>
           </li>
           <li>
-            <a href='/'>Work</a>
+            <a className="noUnderlineOnlyOnHover" href='/'>Work</a>
           </li>
           <li>
-            <a href='/todolist'>Play</a>
+            <a className="noUnderlineOnlyOnHover" href='/todolist'>Play</a>
           </li>
         </ul>
       </div>
