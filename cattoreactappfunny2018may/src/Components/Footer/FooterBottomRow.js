@@ -4,7 +4,6 @@ import '../SimpleStyle.css';
 class FooterBottomRow extends Component {
   render() {
     return (
-
       <ul className="flexRow3ColGutters blueBackground">
         <li></li>
         <li>

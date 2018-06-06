@@ -14,19 +14,19 @@ class NavTop extends Component {
           </li>
           <li className="width10per fontsize8px displayFlexColumn alignItemsLeft">
             <span className="displayFlexRow">
-              <img className="square15" src={headset} />
+              <img className="square15" src={headset} alt={"headset"} />
               <span className="paddingLeft5px">Track Order </span>
             </span>
           </li>
           <li className="width10per fontsize8px">
             <span className="displayFlexRow">
-              <img className="square15" src={headset} />
+              <img className="square15" src={headset} alt={"headset"} />
               <span className="paddingLeft5px"> Support </span>
             </span>
           </li>
           <li className="width10per fontsize8px">
             <span className="displayFlexRow">
-              <img className="square15" src="https://cdn3.iconfinder.com/data/icons/flags-circle/100/USA_-128.png" />
+              <img className="square15" src="https://cdn3.iconfinder.com/data/icons/flags-circle/100/USA_-128.png" alt={"US Flag"}/>
               <span className="paddingLeft5px">English (US)
                 </span>
             </span>

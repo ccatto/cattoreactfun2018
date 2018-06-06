@@ -12,7 +12,7 @@ class ProductsRow extends Component {
     return (
       <div>
         <h3>4 Products in 4 columns</h3>
-OLD
+        OLD
       </div>
     );
   }

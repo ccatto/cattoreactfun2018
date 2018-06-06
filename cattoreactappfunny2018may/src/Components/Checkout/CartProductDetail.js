@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import '../SimpleStyle.css';
 import './Cart.css';
-import quantityFake from '../../Images/quantityFake.png';
 import NSelectDDL from '../Utils/NSelectDDL.js';
-import buttonCounter from '../Utils/buttonCounter.js';
 
 class CartProductDetail extends Component {
   render() {
@@ -12,7 +10,7 @@ class CartProductDetail extends Component {
         <ul className="flexRow5Col textAlignLeft">
           <li></li>
           <li className="marginTop5px">
-            <img className="square60" src="https://www.foodsaver.com/dw/image/v2/AAMB_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9ce752ea/images/highres/FSGSBF0544-P00-1.jpg?sw=400&sh=400&sm=fit" />
+            <img className="square60" src="https://www.foodsaver.com/dw/image/v2/AAMB_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9ce752ea/images/highres/FSGSBF0544-P00-1.jpg?sw=400&sh=400&sm=fit" alt={"Product"} />
           </li>
           <li></li>
           <li className="textAlignLeft">
@@ -43,7 +41,7 @@ class CartProductDetail extends Component {
               $49.99
             </div>
             <div className="fontsize10px marginTop10px" >
-              <img className="square10 garbageMargin" src="https://cdn0.iconfinder.com/data/icons/business-and-office-3-1/24/102-512.png" />
+              <img className="square10 garbageMargin" src="https://cdn0.iconfinder.com/data/icons/business-and-office-3-1/24/102-512.png" alt={"2018 Garbage barrel"} />
               Remove
             </div>
           </li>

@@ -10,7 +10,7 @@ class ProductTile3 extends Component {
     return (
       <ul className="displayFlexColumn  backgroundColorGrayLight colorGrayDark borderRadius15px minHeight320px">
         <li className="margin5px">
-          <img className="square100per borderRadius15px" src={product4} />
+          <img className="square100per borderRadius15px" src={product4} alt={"product"} />
         </li>
         <li className="marginLeft5px">
           <Ratings />

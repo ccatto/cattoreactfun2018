@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
-import product1 from '../../Images/product1.jpg';
-import product2 from '../../Images/product2.jpg';
-import product3 from '../../Images/product3.jpg';
-import product4 from '../../Images/product4.jpg';
-import redstar from '../../Images/redstar.png';
-import Ratings from '../Utils/Ratings.js';
 import ProductTile from './ProductTile.js';
 import ProductTile1 from './ProductTile1.js';
-import ProductTile9 from './ProductTile9.js';
 import ProductTile3 from './ProductTile3.js';
 import ProductTile4 from './ProductTile4.js';
-import ProductTile2 from './ProductTile2.js';
 
 import '../SimpleStyle.css';
 

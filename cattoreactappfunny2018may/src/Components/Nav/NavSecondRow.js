@@ -20,13 +20,13 @@ class NavSecondRow extends Component {
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/account'>
-              <img className="square30" src={account} />
+              <img className="square30" src={account} alt={"Account Mug"}/>
             </a>
             <span className="fontsize8px">Account</span>
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/cart'>
-              <img className="square30" src={cart} />
+              <img className="square30" src={cart} alt={"Catt"}/>
             </a>
             <span className="fontsize8px">Cart</span>
           </li>

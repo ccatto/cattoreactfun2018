@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import '../SimpleStyle.css';
 import './Cart.css';
-import quantityFake from '../../Images/quantityFake.png';
 import NSelectDDL from '../Utils/NSelectDDL.js';
-import buttonCounter from '../Utils/buttonCounter.js';
-
 
 class CartProductDetail1 extends Component {
   render() {
@@ -13,7 +10,7 @@ class CartProductDetail1 extends Component {
         <ul className="flexRow5Col textAlignLeft">
           <li></li>
           <li className="marginTop5px">
-            <img className="square60" src="https://www.crock-pot.com/on/demandware.static/-/Sites-master-catalog/default/dw3f6d07a0/images/highres/SCCPPC600-V1-23.jpg" />
+            <img className="square60" src="https://www.crock-pot.com/on/demandware.static/-/Sites-master-catalog/default/dw3f6d07a0/images/highres/SCCPPC600-V1-23.jpg" alt={"Product"} />
           </li>
           <li></li>
           <li className="textAlignLeft">
@@ -44,7 +41,7 @@ class CartProductDetail1 extends Component {
               $99.99
             </div>
             <div className="fontsize10px marginTop10px" >
-              <img className="square10 garbageMargin" src="https://cdn0.iconfinder.com/data/icons/business-and-office-3-1/24/102-512.png" />
+              <img className="square10 garbageMargin" src="https://cdn0.iconfinder.com/data/icons/business-and-office-3-1/24/102-512.png" alt={"2018 Garbage Can"} />
               Remove  
             </div>
           </li>

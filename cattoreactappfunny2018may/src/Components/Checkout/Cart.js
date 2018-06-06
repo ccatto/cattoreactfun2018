@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import OrderSummary from './OrderSummary';
 import OrderSummaryTax from './OrderSummaryTax';
 import CartProductDetail from './CartProductDetail';
 import CartProductDetail1 from './CartProductDetail1.js';

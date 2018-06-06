@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Home from './Home.js';
 import ReactRouting from './ReactRouting.js';
 
 class Main extends Component {

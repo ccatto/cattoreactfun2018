@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import CartPromoCode from './CartPromoCode.js';
 import '../SimpleStyle.css';
 import './Cart.css';
-import buttonCounter from '../Utils/buttonCounter.js';
 import NButtonOrderSummary from '../Utils/NButtonOrderSummary.js';
 
 class OrderSummaryTax extends Component {
@@ -24,13 +23,14 @@ class OrderSummaryTax extends Component {
     ///////////////////////////////////////// /////////////////////////////////////////
     // Declare Varaibles & functions
     ///////////////////////////////////////// /////////////////////////////////////////
-    var gatewayUrl = "https://jardencs.ondemand.vertexinc.com:443/vertex-ws/services/"
-      , endpoint = "CalculateTax70"
-      , documentDate = new Date().getUTCFullYear() + "-" + (new Date().getUTCMonth() + 1) + "-" + new Date().getUTCDate()
+    // var gatewayUrl = "https://jardencs.ondemand.vertexinc.com:443/vertex-ws/services/"
+    //   , endpoint = "CalculateTax70"
+    //   , 
+    var documentDate = new Date().getUTCFullYear() + "-" + (new Date().getUTCMonth() + 1) + "-" + new Date().getUTCDate()
       , doubleQuote = "\"";
 
-    var response = "StringResponse";
-    var totalTaxObtainedGLOBAL = 0;
+    // var response = "StringResponse";
+    // var totalTaxObtainedGLOBAL = 0;
 
     var sellerCountry = "UNITED STATES";
 
@@ -43,10 +43,10 @@ class OrderSummaryTax extends Component {
 
     let mySellerInfo;
     const myTrustedId = "$tr.G77avkCi";
-    if (sellerCountry == "UNITED STATES") {
+    if (sellerCountry === "UNITED STATES") {
       console.log("calling mySellerInfo forUSA ! ");
       mySellerInfo = new sellerInfo(myTrustedId, "09300", "33431-8560", "UNITED STATES");
-    } else if (sellerCountry == "CANADA") {
+    } else if (sellerCountry === "CANADA") {
       console.log("Oh Canada ");
       // mySellerInfo = new sellerInfo( myTrustedId, "93CAD", "L6Y 0M1", "CANADA" );
     }
@@ -122,19 +122,19 @@ class OrderSummaryTax extends Component {
     // May 10th 4th test 
     /// ..................... .....................  .....................  .....................
 
-    function customerItemDetails(quantity, productId, unitPrice) {
-      this.quantity = quantity;
-      this.productId = productId;
-      this.unitPrice = unitPrice;
-    }
+    // function customerItemDetails(quantity, productId, unitPrice) {
+    //   this.quantity = quantity;
+    //   this.productId = productId;
+    //   this.unitPrice = unitPrice;
+    // }
 
-    var customerItemDetailsMapISH = {
-      1: { quantity: 2, productId: "FSFSBF0534-P00", unitPrice: 25.19 },
-      2: { quantity: 1, productId: "FSFSBF0534-P00", unitPrice: 25.19 },
-      3: { quantity: 1, productId: "FSFSBF0534-P00", unitPrice: 25.19 }
-    }
+    // var customerItemDetailsMapISH = {
+    //   1: { quantity: 2, productId: "FSFSBF0534-P00", unitPrice: 25.19 },
+    //   2: { quantity: 1, productId: "FSFSBF0534-P00", unitPrice: 25.19 },
+    //   3: { quantity: 1, productId: "FSFSBF0534-P00", unitPrice: 25.19 }
+    // }
 
-    customerItemDetails = new customerItemDetails(myQuantity, myProductId, myUnitPrice);
+    // customerItemDetails = new customerItemDetails(myQuantity, myProductId, myUnitPrice);
 
     //console.log("customerItemDetails4 == ", customerItemDetails4);
     totalItems = 2;
@@ -245,7 +245,7 @@ class OrderSummaryTax extends Component {
         <hr className="width90per marginTop15px" />
         <CartPromoCode />
         <hr className="width90per" />
-        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width60per paddingBottom10px paddingTop10px" />
+        <img src="http://in-focusvision.com/clients/20993/images/1_Payment_Methods.png" className="width60per paddingBottom10px paddingTop10px" alt={"Payment Mehtods"}/>
       </div>
 
     );
