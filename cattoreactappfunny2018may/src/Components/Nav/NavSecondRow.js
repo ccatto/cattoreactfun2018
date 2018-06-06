@@ -3,6 +3,7 @@ import '../SimpleStyle.css';
 import we from '../../Images/we.png';
 import cart from '../../Images/cart.png';
 import account from '../../Images/account.png';
+import InputMagGlass from '../Utils/InputMagGlass.js';
 
 class NavSecondRow extends Component {
   render() {
@@ -15,7 +16,7 @@ class NavSecondRow extends Component {
             </a>
           </li>
           <li className="width65per displayFlexColumn paddingTopBottom10px">
-            <input className="width100 " />
+            <InputMagGlass/>
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/account'>

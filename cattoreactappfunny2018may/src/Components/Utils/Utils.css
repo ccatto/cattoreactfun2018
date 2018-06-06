@@ -105,7 +105,6 @@ select > option {
 }
 
 
-
 /* input wiht magnifying glass on right */
 .inputIconWrap{
     border: 3px solid #34302B;    
@@ -113,9 +112,16 @@ select > option {
     flex-direction: row;
 }
 .buttonMag{
-    background-image: url("../../Images/RedStar1.png");
-    background-repeat: no-repeat;
     flex: 0 0 auto;
+    box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+}
+.buttonMag:hover{
+    background-color:#9ECEE4;
+}
+.buttonMag:active{
+    background-color:#9ECEE4;
+    outline: 2px solid #14506B;
+    outline-offset: 4px;
 }
 .inputFlex10{
     flex: 1 0 8em;
