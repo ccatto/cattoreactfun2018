@@ -14,13 +14,13 @@ class FooterBottomRow extends Component {
                 {(new Date().getFullYear())} Brand Name
               </li>
               <li className="width10per displayFlexColumn alignItemsCenter">
-                <a className="colorGrayLight" href="./tersofuse">Term of Use</a>
+                <a className="colorGrayLight noUnderlineOnlyOnHover" href="./tersofuse">Term of Use</a>
               </li>
               <li className="width15per displayFlexColumn alignItemsCenter">
-                <a className="colorGrayLight" href="./copywright">&copy; Copywright & Trademark</a>
+                <a className="colorGrayLight noUnderlineOnlyOnHover" href="./copywright">&copy; Copywright & Trademark</a>
               </li>
               <li className="width10per displayFlexColumn alignItemsCenter">
-                <a className="colorGrayLight" href="./privacypolicy">Privacy Policy</a>
+                <a className="colorGrayLight noUnderlineOnlyOnHover" href="./privacypolicy">Privacy Policy</a>
               </li>
             </ul>
           </div>

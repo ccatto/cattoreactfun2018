@@ -9,13 +9,13 @@ class NavThirdRow extends Component {
           <li className="width15per">
             <a className="noUnderlineOnlyOnHover" href='/'>Live</a>
           </li>
-          <li>
+          <li className="borderLeft">
             <a className="noUnderlineOnlyOnHover" href='/todolist'>Learn</a>
           </li>
-          <li>
+          <li className="borderLeft">
             <a className="noUnderlineOnlyOnHover" href='/'>Work</a>
           </li>
-          <li>
+          <li className="borderLeft">
             <a className="noUnderlineOnlyOnHover" href='/todolist'>Play</a>
           </li>
         </ul>

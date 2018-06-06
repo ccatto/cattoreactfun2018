@@ -48,6 +48,9 @@
 .bold{
     font-family: 'Raleway Bold', sans-serif;
 }
+.borderLeft{
+    border-left: 1px solid #9ECEE4;
+}
 .borderRadius10px{
     border-radius: 10px;
 }
@@ -110,6 +113,9 @@
 }
 .height30px{
     height:30px;
+}
+.height45px{
+    height:45px;
 }
 .height60px{
     height:60px;
@@ -858,6 +864,7 @@
 }
 .nav3rdrow{
     background-color: #F2F2F2;
+    height: 45px;
 }
 .nav3rdrow ul li{
     width:15%;

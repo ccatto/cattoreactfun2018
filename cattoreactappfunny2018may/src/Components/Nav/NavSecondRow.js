@@ -9,14 +9,14 @@ class NavSecondRow extends Component {
   render() {
     return (
       <div className="nav2ndrow">
-        <ul className="listStyleTypeNone ulFlex ">
+        <ul className="listStyleTypeNone ulFlex">
           <li className="width15per displayFlexColumn alignItemsCenter">
             <a href='/' className="width15per displayFlexColumn alignItemsCenter">
               <img className="square60 borderRadius15px" src={we} alt={we} />
             </a>
           </li>
           <li className="width65per displayFlexColumn paddingTopBottom10px">
-            <InputMagGlass/>
+            <InputMagGlass />
           </li>
           <li className="width10per displayFlexColumn">
             <a href='/account'>
