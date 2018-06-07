@@ -50,8 +50,8 @@
 .bold{
     font-family: 'Raleway Bold', sans-serif;
 }
-.borderLeft{
-    border-left: 1px solid #9ECEE4;
+.borderLeftBlueDark{    
+    border-left: 1px solid #14506B;
 }
 .borderRadius10px{
     border-radius: 10px;
