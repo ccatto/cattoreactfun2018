@@ -1,8 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Roboto&text=0123456789);
+.raleway{
+  font-family: "Roboto", "Raleway";
+}
 
 body{
-  font-family: "Roboto", "Raleway";
+  font-family: Roboto, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif;
   margin:0;
 }
 main{
