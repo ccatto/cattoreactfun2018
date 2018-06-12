@@ -63,8 +63,9 @@
     display: -webkit-flex;
     flex-direction: row;
     list-style-type:none;
-    margin: 0;
-    padding: 10px;
+    /* margin: 0; */
+    margin:10px 0px 0px 0px;
+    padding: 10px 5% 0% 5%;
     flex-wrap: wrap;
     text-align: center;
 }
