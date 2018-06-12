@@ -1,13 +1,14 @@
-
 /* Nav Styles */
+
 .topBarFixed {
     position: fixed;
     min-width: auto;
-    box-shadow: 
+    box-shadow:
 }
+
 .topBar {
     border-top: 3px solid #F48024;
-     /* box-shadow: 0 1px 0 rgba(12,13,14,0.15); */
+    /* box-shadow: 0 1px 0 rgba(12,13,14,0.15); */
     position: absolute;
     top: 0;
     left: 0;
@@ -18,15 +19,16 @@
     transition: box-shadow cubic-bezier(.165, .84, .44, 1) .25s;
     height: 50px;
     box-sizing: border-box;
-    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-@media screen and (max-width: 1090px)
-.topBar .container {
+
+@media screen and (max-width: 1090px) .topBar .container {
     padding-left: 0;
     padding-right: 8px;
     margin: 0;
     max-width: calc(100vw - 24px);
 }
+
 .container {
     max-width: 1060px;
     width: 100%;
@@ -47,11 +49,12 @@
     flex-flow: row nowrap;
     align-items: center;
 }
-@media screen and (max-width: 640px)
-.topBarRight {
+
+@media screen and (max-width: 640px) .topBarRight {
     padding-left: 0;
 }
-.topBarRight{
+
+.topBarRight {
     height: 100%;
     display: flex;
     list-style: none;
@@ -62,6 +65,7 @@
     flex-grow: 1;
     justify-content: flex-end;
 }
+
 .item {
     position: relative;
     flex-shrink: 0;
