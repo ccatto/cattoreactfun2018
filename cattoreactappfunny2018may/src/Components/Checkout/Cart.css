@@ -52,7 +52,7 @@
     }
 }
 
-/* .flexRow2Col70perLeft */
+/* .flex Row 2 Col 70per Left */
 .flexRow2Col70perLeft{
     display:flex;
     -ms-box-orient: horizontal;
@@ -64,7 +64,7 @@
     flex-direction: row;
     list-style-type:none;
     /* margin: 0; */
-    margin:10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 10px 5% 0% 5%;
     flex-wrap: wrap;
     text-align: center;
